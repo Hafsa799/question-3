@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="/" method="post">
+    <div class="test">
+     <label>Username</label>
+     <input type="text" Id="username" name="username" value="username">
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input type="email" Id="email" name="email">
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input type="password" Id="password" name="password" minlength="8">
+        <input type="submit" value="submit">
+    </div>
+
+    <div>
+        <label>Date of birth</label>
+        <input type="date" Id="birthday" name="birthday" max="2021-02-09">
+    </div>
+
+    <div>
+        <label>Gender</label>
+        <input type="radio" Id="Male" name="gender">
+    </div>
+
+    <div>
+        <label>Male</label>
+        <input type="radio" Id="female" name="gender">
+    </div>
+
+    <div>
+        <label>Female</label>
+        <input type="radio" Id="other" name="gender">
+        <label>other</label>
+    </div>
+    <label>Choose a nationality</label>
+    <select name="nationality" id="nationalities">
+
+        <optgroup label="First nationality">
+           <option>Bangladesh</option>
+           <option>USA</option>
+        </optgroup>
+
+        <optgroup label="Second nationality">
+            <option>London</option>
+            <option>UK</option>
+         </optgroup>
+    </select>
+    
+    <div>
+        <input type="submit" value="submit">
+    </div>
+
+
+    </form>
+</body>
+</html>
